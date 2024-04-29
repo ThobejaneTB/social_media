@@ -38,9 +38,9 @@ public class CommentService {
        String userPostEmail = post.getUser().getEmail();
 
        emailNotification.senderEmail(userPostEmail,
-               "New comment add on your Post",
+               "New comment has been added on your Post",
                "Hi, " + post.getUser().getFullName() + " \n " + user.getFullName() +
-                       " has add a comment on you post !!" );
+                       " just commented on you post !!" );
 
         comment.setPost(post);
 
