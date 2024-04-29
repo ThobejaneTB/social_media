@@ -48,7 +48,7 @@ public class LikeService {
        }
 
         emailNotification.senderEmail(userPostEmail,
-               "New Like add on your Post",
+               "New Like has been added on your Post",
                "Hi, " + post.getUser().getFullName() + " \n " + user.getFullName() +
                        " has "+ likeMsg +" your post !!" );
 
